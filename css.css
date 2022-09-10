@@ -1,0 +1,399 @@
+body {
+    font-family: advent;
+}
+
+#q1 {
+    float: left;
+    padding: 100px;
+    margin-left: 14%;
+    font-size: 80px;
+    color: peachpuff;
+    text-align: center;
+    margin-top: 100px;
+    background-image: url(img/stephany-lorena-EEae2nmrIJ8-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#q2 {
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-image: url(img/hannah-busing-396059-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#l1 {
+    font-size: 50px;
+}
+
+#gc:hover {
+    background-color: pink;
+}
+
+#ih:hover {
+    background-color: cornflowerblue;
+}
+
+
+div.img {
+    margin-left: 15%;
+    margin-right: 120px;
+    margin-bottom: 100px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    text-align: center;
+    font-size: 22px;
+    background-color: white;
+    padding: 1.5%;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 28px;
+    margin-top: -1px;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    position: fixed;
+    width: 96%;
+}
+
+li {
+    padding-bottom: 180px;
+    float: right;
+    color: black;
+}
+
+#logo {
+    float: left;
+}
+
+#logo img {
+    width: 86%;
+    height: 100px;
+    font-size: 90px;
+    margin-top: -4px;
+    margin-left: -33%;
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 19px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: none;
+    color: black;
+    font-weight: 800;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#q3 {
+    font-family: Benny blanco; 
+    width: 100%;
+    height: 3600px;
+    float: left;
+    background-image: url(img/gerardo-rojas-5dS-SY7lJFA-unsplash.jpg);
+}
+
+#q3 img {
+    width: 50%;
+}
+
+#e1 {
+    margin-top: -55%;
+    font-size: 200px;
+    color: peachpuff;
+}
+
+.b1 {
+    background-color: black;
+    border: none;
+    padding: 2%;
+    font-weight: 600;
+    font-size: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+}
+
+.b1:hover {
+    box-shadow: 0px 8px 16px 0px rgba(85,85,85,0.3);
+}
+
+.b2 {
+    background-color: black;
+    border: none;
+    padding: 2%;
+    margin: -20%;
+    font-size: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+}
+
+.b2:hover {
+    box-shadow: 0px 8px 16px 0px rgba(85,85,85,0.3);
+    font-size: 35px;
+}
+
+.b3 {
+    background-color: black;
+    border: none;
+    padding: 2%;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+}
+
+.b3:hover {
+    box-shadow: 0px 8px 16px 0px rgba(85,85,85,0.3);
+    font-size: 22px;
+}
+
+#q3 h2 {
+    letter-spacing: 12px;
+    font-family: anabelle script light;
+    text-align: center;
+    font-size: 150px;
+    text-shadow: 6px 3px rgba(85,85,85,0.6);
+    width: 32%;
+    color: pink;
+}
+
+.p1 {
+    float: right;
+    width: 60%;
+    margin-bottom: 100px;
+}
+
+.p1 img {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+}
+
+#f1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -10px;
+    width: 101%;
+    color: white;
+    background-color: black;
+    float: left;
+}
+
+#f1 h2, p {
+    padding: 1.5%;
+    color: white;
+}
+
+#f1 h2{
+    color: white;
+    float: left;
+    margin-left: 18%;
+    text-align: center;
+}
+
+#f1 p {
+    font-size: 20px;
+    background-color: black;
+  float: left;
+  margin-left: 30%; 
+  color: white;
+}
+
+form {
+    margin-top: 14%;
+    float: left;
+    height: 10%;
+    width: 50%;
+    margin-left: 20%;
+}
+
+form select {
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 100px;
+    padding: 3.6%;
+    float: left;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 4px solid;
+    border-color: burlywood;
+}
+
+form option {
+    color: white;
+}
+
+form input {
+    text-align: center;
+    width: 35%;
+    margin-left: 10%;
+    margin-bottom: 12px;
+    padding: 3.6%;
+    float: left;
+    background-color: white;
+    border: none;
+    border-bottom: 4px solid;
+    border-color: pink;
+    color: black;
+    font-size: 20px;
+}
+
+form h1 {
+    margin-left: 12%;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    width: 33%;
+    margin-left: 15%;
+}
+
+#b4 {
+    float: left;
+    margin-top: 15%;
+    text-align: center;
+    width: 15%;
+}
+
+#b4 button{
+    border: none;
+    width: 100%;
+    padding: 30px;
+    font-size: 30px;
+    margin: 12px;
+}
+
+#b4 button:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+#n1 {
+    background-color: deepskyblue;
+    float: left;
+}
+
+#n2 {
+    background-color: orange;
+    float: left;
+}
+
+#n3 {
+    float: left;
+    background-color: skyblue;
+}
+
+#s1 {
+    margin-top: 10%;
+    width: 100%;
+    background-image: url(img/gerardo-rojas-5dS-SY7lJFA-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#s1 h1 {
+    font-family: anabelle script light;
+    color: rgb(236, 132, 150);
+    font-size: 160px;
+    padding: 30px;
+    text-shadow: 6px 3px rgba(85,85,85,0.2);
+}
+
+#side-menu {
+    float: left;
+    width: 12%;
+    background-color: whitesmoke;
+    border-right: 1px solid;
+}
+
+#side-menu li {
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(235, 233, 233);
+    padding: 2.9%;
+    width: 100%;
+    font-size: 30px;
+    float: left;
+}
+
+#side-menu li:hover {
+    background-color: rgb(245, 197, 209);
+}
+
+#s2 {
+    padding: 20px;
+    float: left;
+    width: 86%;
+}
+
+#s2 .img{
+    margin-left: 50px;
+    margin-right: 20px;
+    width: 19%;
+}
+
+#s2 .desc{
+    margin-top: -25px;
+}
+
+#s2 button{
+    color: black;
+    background-color: rgb(245, 213, 213);
+    box-shadow: none;
+}
+
+
+
