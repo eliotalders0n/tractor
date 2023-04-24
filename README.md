@@ -1,3 +1,2 @@
-"# Farmerspride-v1.6.1" 
 "# kamba" 
-"# kamba" 
+https://eliotalders0n.github.io/kamba/
